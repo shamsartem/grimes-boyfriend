@@ -1,0 +1,28 @@
+{
+  "update_url": "https://clients2.google.com/service/update2/crx",
+
+  "name": "Парень Граймс (Grimes's boyfriend)",
+  "version": "0.0.0.8",
+  "description": "Меняет \"Илон Маск\" на \"парень Граймс\" везде, где это возможно. https://github.com/shamsartem/grimes-boyfriend",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["script.js"]
+    }
+  ],
+  "page_action": {
+    "default_icon": {
+      "16": "images/musk_16.png",
+      "32": "images/musk_32.png",
+      "48": "images/musk_48.png",
+      "128": "images/musk_128.png"
+    }
+  },
+  "icons": {
+    "16": "images/musk_16.png",
+    "32": "images/musk_32.png",
+    "48": "images/musk_48.png",
+    "128": "images/musk_128.png"
+  },
+  "manifest_version": 2
+}

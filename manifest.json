@@ -1,9 +1,9 @@
 {
   "update_url": "https://clients2.google.com/service/update2/crx",
 
-  "name": "Парень Граймс (Grimes's boyfriend)",
-  "version": "0.0.0.8",
-  "description": "Меняет \"Илон Маск\" на \"парень Граймс\" везде, где это возможно. https://github.com/shamsartem/grimes-boyfriend",
+  "name": "Не парень Граймс (not Grimes's boyfriend)",
+  "version": "0.0.0.9",
+  "description": "Меняет \"Илон Маск\" на \"не парень Граймс\" везде, где это возможно. https://github.com/shamsartem/grimes-boyfriend",
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
